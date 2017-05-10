@@ -1,18 +1,18 @@
 {
-  "name": "clsoure-externs-module",
+  "name": "closure-externs-module",
   "version": "1.0.0",
   "author": "Teppei Sato <teppeis@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "closure": "closure-compiler --flagfile closure.conf"
   },
-  "homepage": "https://github.com/teppeis-sandbox/clsoure-externs-module#readme",
+  "homepage": "https://github.com/teppeis-sandbox/closure-externs-module#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/teppeis-sandbox/clsoure-externs-module.git"
+    "url": "git+ssh://git@github.com/teppeis-sandbox/closure-externs-module.git"
   },
   "bugs": {
-    "url": "https://github.com/teppeis-sandbox/clsoure-externs-module/issues"
+    "url": "https://github.com/teppeis-sandbox/closure-externs-module/issues"
   },
   "keywords": [],
   "license": "MIT",

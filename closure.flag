@@ -1,0 +1,13 @@
+--compilation_level=ADVANCED
+--language_in=ES_NEXT
+--language_out=ES5
+
+--dependency_mode=STRICT
+--module_resolution=NODE
+--process_common_js_modules
+
+--externs=externs/**.js
+--js=src/**.js
+--entry_point=src/index.js
+
+--checks_only
